@@ -1,6 +1,6 @@
 {
   "name": "gemini-coverage",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "description": "Coverage report generator for gemini",
   "bin": {
     "gemini-coverage": "./bin/gemini-coverage"

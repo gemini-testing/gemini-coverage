@@ -1,7 +1,7 @@
 gemini-coverage
 ===============
 
-Утилита для генерации HTML-отчета на основе JSON-отчета о покрытии тестами [gemini](http://github.com/bem/gemini).
+Утилита для генерации HTML-отчета на основе JSON-отчета о покрытии тестами [gemini](http://github.com/gemini-testing/gemini).
 
 Использование
 -----

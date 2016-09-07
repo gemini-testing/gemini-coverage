@@ -7,18 +7,14 @@
   },
   "main": "lib/cli/index.js",
   "dependencies": {
-    "coa": "~0.4.0",
+    "coa": "^1.0.1",
     "handlebars": "~1.3.0",
     "inherit": "~2.2.1",
-    "q": "~1.0.1",
-    "q-io": "~1.11.0"
-  },
-  "devDependencies": {
-    "jscs": "~1.6.2",
-    "jshint": "^2.5.1"
+    "q": "^1.4.1",
+    "q-io": "^2.0.6"
   },
   "scripts": {
-    "lint": "jshint . && jscs ."
+    "lint": "eslint ."
   },
   "author": "Vladimir Alaev <scff@yandex-team.ru> (https://github.com/scf2k)",
   "license": "MIT",
@@ -38,5 +34,9 @@
   "bugs": {
     "url": "https://github.com/gemini-testing/gemini-coverage/issues"
   },
-  "homepage": "https://github.com/gemini-testing/gemini-coverage"
+  "homepage": "https://github.com/gemini-testing/gemini-coverage",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-gemini-testing": "^2.2.0"
+  }
 }
